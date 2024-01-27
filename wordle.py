@@ -46,8 +46,7 @@ if __name__ == "__main__":
     bot = Bot(wordle.return_words_lst())
     print(word)
 
-    count = 0
-    while count < 5:
+    for i in range(5):
         # guess = wordle.guess_loop(wordle.return_words_lst())
         guess = bot.temporary_guess()
         print(guess)
@@ -56,5 +55,4 @@ if __name__ == "__main__":
             f.write(f"{guess}:{wordle.points}\n")
         if guess_test:
             break
-        count += 1
 

@@ -8,3 +8,8 @@ yonks:1
 steep:4
 dully:2
 ficin:0
+acute:2
+axons:0
+rabic:2
+merle:4
+paaho:0
