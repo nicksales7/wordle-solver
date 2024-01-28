@@ -7,7 +7,7 @@ if __name__ == "__main__":
     bot = RandomBot(wordle.return_words_lst())
     print(word)
 
-    for i in range(10000):
+    for i in range(1000000):
         for i in range(5):
             # guess = wordle.guess_loop(wordle.return_words_lst())
             guess = bot.temporary_guess()
