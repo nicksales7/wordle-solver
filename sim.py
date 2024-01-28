@@ -1,10 +1,10 @@
 from wordle import WordleFunctions
-from bot import Bot
+from bot import RandomBot
 
 if __name__ == "__main__":
     wordle = WordleFunctions("possible_words.txt")
     word = wordle.choose_word(wordle.return_words_lst())
-    bot = Bot(wordle.return_words_lst())
+    bot = RandomBot(wordle.return_words_lst())
     print(word)
 
     for i in range(10000):
